@@ -80,27 +80,27 @@ tfoot tr {
   Label the data
   */
   td:nth-of-type(1):before {
-    content: "Name";
+    content: "Family ID";
   }
 
   td:nth-of-type(2):before {
-    content: "Position";
+    content: "Name";
   }
 
   td:nth-of-type(3):before {
-    content: "Office";
+    content: "Mobile";
   }
 
   td:nth-of-type(4):before {
-    content: "Age";
+    content: "BirthDate";
   }
 
   td:nth-of-type(5):before {
-    content: "Start date";
+    content: "Anniversary Date";
   }
 
   td:nth-of-type(6):before {
-    content: "Salary";
+    content: "Grade Sheet";
   }
 
   .dataTables_length {
